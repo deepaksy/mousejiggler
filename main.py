@@ -23,7 +23,7 @@ def listen_for_interrupt():
     global mouseMovementEnabled
     while True:
         if keyboard.is_pressed(INTERRUPT_KEY):
-            # threading.Lock().release()
+            # threading.Lock().release() hehe
             mouseMovementEnabled = False
             break
 
