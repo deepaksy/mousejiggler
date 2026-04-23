@@ -9,14 +9,14 @@ A mouse jiggler program implemented  in python.
    - pyautogui
    - random
    - time
-   - threading
    - keyboard
+- asyncio (incase of using the older python version)
 
 
 *Here, pyautogui, keyboard package you need to get from pip install <package-name>, other packages are readily available with python installation.*
 
 ### Usage:
-1. Install python 3.x or more.
+1. Install python 3.4x or more.
 2. clone the repository or copy the code.
 3. create a virtual environment (optional)
    - command:
@@ -47,5 +47,5 @@ usecase: No usage definition needed. 😉
 
 *Optional enhancement*: -
 - *you can further optimise the code and create a os specific executable for the program.*
-- *Currently, the program terminates when you press **esc** on you keyboard. You can further customize and enhance the program termination logic*.
-- *The program is using python in-build threading library to run the module in a multi-threading enviornment. If anyone have experience and have worked with multi-threading in python. they are invited to enhance the threading behaviour of the program.*
+- *Currently, the program terminates when you press combination of keys **ctrl+shift+q** on you keyboard. You can further customize and enhance the program termination logic*.
+- *The program is using python in-build asyncio to run optimized way with co-routines. If any experience programmer want to contribute to the project. they are pull requests are welcomed.*
