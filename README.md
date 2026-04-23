@@ -2,7 +2,7 @@
 A mouse jiggler program implemented  in python.
 
 ### **Pre-requisite**:
-- Python 3.x installation.
+- Python 3.4x installation.
 - An IDE prefered.
 - A virtual environment - optional.
 - *python packages(pip package)*:
